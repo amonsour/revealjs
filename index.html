@@ -22,10 +22,24 @@
 						<small>Building the foundation with <img src="https://angular.io/assets/images/logos/angular/angular.svg" height="30" style="margin: 0" />ngular</small>
 					</p>
         </section>
-				<section>Slide 2</section>
+				<section>Getting started
+          <p><small>You can view the setup documentation from <a href="https://docs.google.com/document/d/1yFPWkuDh5TBb3eNOPvOo8l15S_Jumt_I-0dKUSzAK5I/edit#">Google Docs</a> </small></p>
+        </section>
+        <section>Views container
+
+          <p><small>To access the pages of the project</small></p>
+          <p><img height="300" src="1.png" /></p>
+					<pre data-id="code-animation"><code class="language-ts" data-trim >
+./libs/upd/views/overview/src/lib/overview-summary
+          </code></pre>
+        </section>
 				<section data-auto-animate>
-					<h2 data-id="code-title">With animations</h2>
-					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+					<h2 data-id="code-title">TS File</h2>
+          <!-- <div class="r-stack">
+          <p class="fragment fade-in-then-out"><small>First</small></p>
+          <p class="fragment fade-in-then-out"><small>Second</small></p>
+        </div> -->
+					<pre data-id="code-animation"><code class="language-ts" data-trim data-line-numbers="|4,8-11|17|22-24|88-100">
 import { Component, OnInit } from '@angular/core';
 import { catchError, map, of } from 'rxjs';
 import dayjs from 'dayjs';
@@ -239,7 +253,11 @@ const whatWasWrong = [
   },
 ];
 
-					</script></code></pre>
+					</code></pre>
+
+          <aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
 				</section>
 			</div>
 		</div>
