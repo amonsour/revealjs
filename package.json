@@ -29,7 +29,6 @@
     "slides",
     "presentation"
   ],
-  "devDependencies": {},
   "dependencies": {
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.14.3",
@@ -40,6 +39,7 @@
     "babel-plugin-transform-html-import-to-string": "0.0.1",
     "colors": "^1.4.0",
     "core-js": "^3.12.1",
+    "express": "^4.17.3",
     "fitty": "^2.3.0",
     "glob": "^7.1.7",
     "gulp": "^4.0.2",
